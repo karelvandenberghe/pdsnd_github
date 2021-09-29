@@ -16,4 +16,4 @@ new_york_city.csv
 chicago.csv
 
 ### Credits
-Big thanks to all the teachers and reviewers for their guidance during the course :+1:.
+Big thanks to all the teachers and reviewers for their guidance throughout the course :+1:.
