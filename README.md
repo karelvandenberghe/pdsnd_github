@@ -1,5 +1,5 @@
 ### Date created
-September 29th 2021
+29/09/2021
 
 ### Project Title
 Explore US Bikeshare Data
@@ -16,4 +16,4 @@ new_york_city.csv
 chicago.csv
 
 ### Credits
-Big thanks to all the teachers and reviewers for their guidance during the course.
+Big thanks to all the teachers and reviewers for their guidance during the course :+1:.
