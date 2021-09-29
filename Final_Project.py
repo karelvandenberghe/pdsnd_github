@@ -12,9 +12,10 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "none" to apply no day filter
     """
     print('\nHello! Let\'s explore some US bikeshare data!')
+    print('We have gathered data for 3 large cities in the US.')
 
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    city = input('Would you like to see data for Chicago, New York, or Washington? ').title().strip()
+    city = input('\nWould you like to see data for Chicago, New York, or Washington? ').title().strip()
     while city not in ['Chicago', 'New York', 'Washington']:
         print('Please enter a correct city')
         city = input('Would you like to see data for Chicago, New York, or Washington? ').title()
