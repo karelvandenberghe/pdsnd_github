@@ -1,6 +1,7 @@
 import time
 import pandas as pd
-import numpy as np
+
+section_divider = '-'*50
 
 def get_filters():
     """
@@ -34,7 +35,7 @@ def get_filters():
     while day not in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'None']:
         day = input('Please enter a correct day: ').title().strip()
 
-    print('-'*60)
+    print(section_divider)
     return city, month, day
 
 
@@ -100,7 +101,7 @@ def time_stats(df):
     print('The most common hour was between {}:00 and {}:00 hours.'.format(common_hour, common_hour+1))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*60)
+    print(section_divider)
 
 
 def station_stats(df):
@@ -123,7 +124,7 @@ def station_stats(df):
                                                                                      (common_both_stations[1])))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*60)
+    print(section_divider)
 
 
 def seconds_to_hours_minutes_seconds(time_in_seconds):
@@ -155,7 +156,7 @@ def trip_duration_stats(df):
           .format(hours, minutes, seconds))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*60)
+    print(section_divider)
 
 
 def user_stats(df):
@@ -187,7 +188,7 @@ def user_stats(df):
         print('\nYear of birth details were not provided in this database.')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*60)
+    print(section_divider)
 
 
 def raw_data(df):
